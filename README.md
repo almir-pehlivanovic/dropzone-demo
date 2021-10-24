@@ -1,15 +1,15 @@
 ### Dropzone Demo project
 
-#####Short project description
+##### Short project description
 The goal of this demo project is a short simulation of CRUD (Create, Read, Update, Delete) operations, as well as file management (adding and deleting from the server). The simulation form is based on drag and drop logic with files and additional fields in the form (title, body, etc.).
 
 The Drag and Drop container allows a maximum of 10 images up to 2MB in .jpg and .jpeg formats.
 
-###Requirements
+### Requirements
 - PHP version 7.3+
 - [Composer v2](https://getcomposer.org/download/ "Composer v2")
 
-###Installation
+### Installation
 Clone GitHub repo locally
 
 	 git clone https://github.com/almir-pehlivanovic/dropzone-demo.git
