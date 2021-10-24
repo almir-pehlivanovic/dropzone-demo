@@ -1,0 +1,88 @@
+#demoform{
+    border: none;
+    padding: 0;
+}
+.bg-color{
+    background-color: #fbfdff;
+    position: relative;
+}
+#dropzoneDragArea {
+    background-color: transparent;
+    border: 1px dashed #c0ccda;
+    border-radius: 6px;
+    min-height: 210px;
+    height: auto;
+    text-align: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+    position: relative;
+    color: rgb(0, 0, 0, 0.5);
+    z-index: 2;
+    padding: 20px;
+}
+.dropzone-previews {
+    display: table-row;
+    flex-wrap: nowrap;
+    background: #fbfdff;
+    text-align: left;
+}
+.dropzone-inner-text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+.dropzone{
+    border-radius: 10px;
+}
+.dropzone .dz-preview .dz-image{
+    box-shadow: 1px 0px 7px -4px rgb(0 0 0 / 75%);
+}
+.dz-error-mark svg path{
+    fill: #ff6347;
+}
+.dropzone .dz-preview .dz-remove{
+    position: absolute;
+    top: -24px;
+    width: 100%;
+    color: #ff6347;
+}
+
+/* Fancybox style */
+
+.fancybox-gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.fancybox-gallery-container a{
+    width: 150px;
+    height: 100px;
+    display: block;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.fancybox-gallery-container a img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.view-image:hover::before{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url('/images/show.svg');
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.view-image:hover::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgb(255, 255, 255, 0.5);
+}
