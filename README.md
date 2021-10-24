@@ -7,7 +7,7 @@ The Drag and Drop container allows a maximum of 10 images up to 2MB in .jpg and 
 
 ###Requirements
 - PHP version 7.3+
-- Composer v2[Composer v2](https://getcomposer.org/download/ "Composer v2")
+- [Composer v2](https://getcomposer.org/download/ "Composer v2")
 
 ###Installation
 Clone GitHub repo locally
